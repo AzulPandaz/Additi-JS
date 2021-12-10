@@ -1,0 +1,346 @@
+:root{
+--mainback: #3cc3b5;
+--subheader:  #b4b4b4;
+--button: #3ac697;
+--colophon: #2ea89b;
+--toptext: #f7ffff;
+--headerText:'Courgette', cursive;
+--text: 'Oswald', sans-serif;
+}
+/* general rules */
+#products1 img, #products2 img, #products3 img{
+    width: 100px;
+    height: 100px;
+}
+#checkout-img{
+    width: 215px;
+    height: 215px;
+}
+/* product Page rules */
+
+.info{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.item-name{
+    font-family: Monospace;
+    text-transform: uppercase;
+    color: black;
+}
+
+.item-class{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+
+.total-subtotal, .total-shipping, .total-tax, .total-total{
+    color: var(--button);
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.name, #qtyInput, #itemSubtotal, .price{
+    color: darkorchid;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: var(--text);
+}
+
+/* end of product page */
+.inner{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.clear{
+    clear: both;
+}
+li{
+    list-style: none;
+}
+a, .colophon-text{
+    text-decoration: none;
+    color: white;
+    font-family: var(--headerText);
+}
+.price{
+    font-family: var(--text);
+    color: silver;
+}
+.product-name{
+    font-family: var(--text);
+    color: silver;
+}
+/* start of header */
+.topheader{
+    display: inline-block;
+    width: 100%;
+}
+.logo{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 10px;
+    color: var(--mainback);
+    font-size: 30px;
+    font-family: var(--headerText);
+}
+.search{
+    width: 300px;
+    height: 20px;
+    border: 5px solid lightgrey;
+    border-radius: 10px;
+}
+.search-bar{
+    float: left;
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 600px;
+}
+.lower-header{
+    width: 100%;
+    height: 55px;
+    background-color: var(--mainback);
+    border-bottom: 3px solid white;
+}
+.header-nav{
+    width: 100%;
+    float: left;
+}
+.total-price{
+    float: right;
+}
+.top-price{
+    margin-left: 30px;
+    float: right;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list-item{
+    display: inline;
+    border-left: 1px solid rgb(110, 103, 103);
+}
+.nav-list-item a{
+    margin-left: 15px;
+    height: 55px;
+}
+/* End of Header
+    Start of Main */
+.top-section{
+    background-color: var(--mainback);
+}
+.slider-section{
+    /* border: 1px solid red; */
+    height: 650px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+}
+.shirt-name{
+    font-family: var(--text);
+    font-size: 45px;
+    color: white;
+}
+.text-top-main{
+    color: white;
+    font-family: var(--headerText);
+}
+.bren-tall{
+    height: 500px;
+    width: 350px;
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+}
+.clothes-info{
+    margin-top: 50px;
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 500px;
+}
+.description{
+    margin-top: 75px;
+}
+.top-button{
+    margin-top: 45px;
+    background-color: var(--mainback);
+    border: 4px solid white;
+    border-radius: 20%;
+    color: white;
+    font-size: 20px;
+    font-family: var(--text);
+}
+
+.carousel-row{
+    margin-top: 20px;
+}
+
+.sliders{
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.slider{
+    border: 1px solid white;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.slider:hover{
+    transform: scale(1.5);
+}
+.slider:nth-child(4){
+    background-color: var(--colophon);
+    border:var(--colophon);
+}
+
+.background-carousel{
+    background-color: var(--mainback);
+}
+
+.info{
+    margin-top: 10px;
+}
+
+.header-heal{
+    font-size: 22px;
+    font-family: var(--text);
+}
+
+.header-two{
+    font-size: 32px;
+    font-family: var(--text);
+    color: var(--button);
+    text-align: center;
+}
+
+
+ 
+
+
+
+/* end of top main */
+.top-section-boxes{
+    /* border: 1px solid red; */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.buy-box-top{
+    /* border: 1px solid blueviolet; */
+    margin: 25px;
+    width: 500px;
+    height: 250px;
+}
+.buy-box-top:nth-child(2){
+    border-left: 1px solid grey;
+    padding-left: 5px;
+}
+.buy-box-top:nth-child(3){
+    border-left: 1px solid grey;
+    padding-left: 5px;
+}
+.info-image-top{
+    float: right;
+    /* margin-right: 25px; */
+}
+.product-name-top{
+    /* border: 1px solid pink; */
+    width: 100px;
+}
+/* .mid-button{
+    margin-top: 25px;
+} */
+/* divider */
+.divider{
+    margin: 24px;
+    background-color: var(--colophon);
+}
+/* main bottom */
+
+.middle-section .inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mid-button{
+    background-color: var(--mainback);
+    border: 4px solid var(--mainback);
+    border-radius: 20%;
+    color: white;
+    font-family: var(--text);
+    font-size: 15px;
+}
+.buy-box-mid{
+    /* border: 1px solid blue; */
+    border: 1px solid grey;
+    border-bottom: 4px solid var(--colophon);
+    margin: 40px;
+    width: calc(100%/4);
+    text-align: center;
+}
+.buy-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.price{
+    margin-right: 15px;
+}
+
+.item-img{
+    width: 100%;
+}
+
+.item-info{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: var(--button);
+}
+/* end of Main */
+
+.footer-section{
+    background-color: var(--mainback);
+}
+.footer-info{
+    display: flex;
+}
+.footer-link{
+    /* border: 1px solid red; */
+    width: calc(100%/4);
+    text-align: center;
+}
+.footer-list{
+    line-height: 2;
+}
+.colophon{
+    background-color: var(--colophon);
+}
+.colophon-text{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@media (max-width:599px){
+    .buy-box-mid{
+        width: 350px;
+    }
+}
+@media (max-width:599px){
+    .buy-box-top{
+        width: 350px;
+    }
+}
+    
+
